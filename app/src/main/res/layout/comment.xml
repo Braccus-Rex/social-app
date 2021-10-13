@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/lay"
+    android:background="@drawable/a1"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@drawable/a1"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_gravity="left|top"
+    android:layout_marginRight="16dp"
+
+    android:src="@drawable/ic_launcher"
+    android:id="@+id/icon"
+
+    android:scaleType="fitCenter" />
+    <TextView
+        android:fontFamily="sans-serif-light"
+                android:layout_width="fill_parent"
+        android:id="@+id/commentText"
+        android:singleLine="false"
+        android:maxLines="20"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world1"
+        android:focusableInTouchMode="false"
+        android:autoText="false" />
+
+</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:background="#000"
+        android:layout_height="1px"
+        android:alpha=".5"
+
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+></View>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primaryDark">#303F9F</color>
+    <color name="accent">#00BCD4</color>
+    <color name="accentDark">#000</color>
+    <color name="fab">#F44336</color>
+    <color name="fab_dark">#D32F2F</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00ff00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#F44336</color>
+
+    <array name="progress_colors">
+        <item>#FF3F8AF8</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="in_colors">
+        <item>#FFB5D4FF</item>
+        <item>#FFDEEAFC</item>
+        <item>#FFFAFFFE</item>
+    </array>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_gradient_start">#EB5038</color>
+    <color name="bg_gradient_end">#CA3822</color>
+    <color name="bg_button_login">#A92815</color>
+</resources>

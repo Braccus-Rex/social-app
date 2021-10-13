@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme using Material Design here. -->
+        <item name="android:navigationBarColor">#333</item>
+
+    </style>
+
+    <style name="Theme.TransparencyDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#333</item>
+
+        <item name="android:actionBarStyle">@style/MyActionBar1</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+
+    </style>
+
+    <style name="MyActionBar1" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/primary</item>
+        <item name="android:shadowColor">#00000000</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>
